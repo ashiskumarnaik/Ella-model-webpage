@@ -1,0 +1,102 @@
+body {
+    background-image: url(bg.webp);
+    margin: 0;
+    padding: 0;
+    height: 110vh;
+    background-size: cover;
+}
+header {
+    padding: 20px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+    top: 0;
+}
+.logoBox{
+    display: inline-block;
+    width: 250px;
+    font-size: x-large;
+    font-weight: 600;
+    cursor: pointer;
+}
+.logoBox:hover {
+    color: salmon;
+    transition: all 0.5s;
+}
+.navBox {
+    display: inline-block;
+    width: 800px;
+    position: absolute;
+    right: 20px;
+}
+.navBox>a:hover {
+    color: salmon;
+}
+.navBox>a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    transition: all 0.5s;
+    font-weight: 200;
+}
+#homie {
+    color: salmon;
+}
+.heading {
+    /* border: 2px white solid; */
+    color: salmon;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 54px;
+    left: 108px;
+    width: 600px;
+  
+}
+.heading + h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* border: 2px solid white; */
+    position: relative;
+    left: 130px;
+    width: 500px;
+    font-size: 40px;
+}
+.heading + h1 + p {
+    color: rgba(255, 255, 255, 0.909);
+    /* border: 2px solid white; */
+    position: relative;
+    top: 30px;
+    width: 400px;
+    font-family: 'Roboto', sans-serif;
+    left: 108px;
+    word-spacing: 4px;
+    font-size: large;
+    font-style: italic;
+}
+.btn {
+    color: rgb(0, 0, 0);
+    background-color: salmon;
+    border: 2px solid salmon;
+    position: relative;
+    width: 150px;
+    padding: 15px;
+    top: 90px;
+    left: 108px;
+    font-weight: 600;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.5s;
+}
+.btn:hover {
+    color: white;
+    background-color: rgba(240, 248, 255, 0);
+}
+footer {
+    color: white;
+    position: fixed;
+    /* border: 2px solid white; */
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+}
